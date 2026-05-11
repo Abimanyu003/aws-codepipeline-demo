@@ -10,7 +10,6 @@ phases:
   build:
     commands:
       - rm -rf .terraform
-      -terraform fmt
       - terraform init -reconfigure
       - terraform validate
       - terraform plan
