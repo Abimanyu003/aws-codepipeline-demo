@@ -18,7 +18,7 @@ variable "private_subnet_cidr" {
 variable "instance_type" {
 
 }
-variable "ami_id"{
+variable "ami_id" {
 }
 
 variable "key_name" {
@@ -34,5 +34,5 @@ variable "db_password" {
 }
 
 variable "bucket_name" {
-    
+
 }
